@@ -11,7 +11,7 @@ X-Python-Version: >= 2.7
 #X-Python3-Version: >= 3.2
 
 Package: python-bx
-Architecture: all
+Architecture: any
 Depends: ${python:Depends}, ${misc:Depends}
 Description: Tools for manipulating biological data,
   bx-python provides tools to process modern biological file formats.
