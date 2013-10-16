@@ -1,0 +1,4 @@
+version=3
+# Version with external js libs
+https://pypi.python.org/packages/source/b/bx-python/bx-python-([0-9.]*).tar.gz
+
