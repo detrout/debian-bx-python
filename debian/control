@@ -3,9 +3,12 @@ Section: python
 Priority: optional
 Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
 Uploaders: Diane Trout <diane@ghic.org>, python-all-dev
-Build-Depends: debhelper (>= 9), cython, python-nose (>= 0.10.4)
-X-Python-Version: >= 2.6
-X-Python3-Version: >= 3.2
+Build-Depends: debhelper (>= 9), cython,
+ python-nose (>= 0.10.4),
+ python-lzo,
+ python-numpy,
+X-Python-Version: >= 2.7
+#X-Python3-Version: >= 3.2
 
 Package: python-bx
 Architecture: all
